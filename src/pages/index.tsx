@@ -16,9 +16,9 @@ import React from 'react'
 import { LangingPageProps } from 'types/api'
 import client from '../graphql/client'
 
-const Index = ({ logo }: LangingPageProps) => (
+const Index = ({ logo, header }: LangingPageProps) => (
   <>
-    <SectionHero logo={logo} />
+    <SectionHero logo={logo} header={header} />
     <SectionAboutProject />
     <SectionTech />
     <SectionConcepts />
